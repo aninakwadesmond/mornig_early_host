@@ -1,0 +1,58 @@
+.image{
+    height: 100px;
+    border-radius: 50%;
+    float:left;
+    margin-right: 50px
+}
+hr{
+    border: none;
+    border-bottom: dotted;
+    width: 20%;
+    margin-top: 50px;
+    color: aquamarine;
+}
+header{
+    background-color: black;
+}
+ul{
+    overflow: hidden;
+    background-color: black;
+    list-style-type: none;
+
+    
+}
+li{
+    float:left
+}
+li a{
+    display:block;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: capitalize;
+    color:white;
+    margin-left:0px;
+}
+li a:hover{
+    background-color: greenyellow;
+}
+.flex-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.content{
+    flex:30%;
+    height: 70px;
+}
+.cars{
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.text p{
+    font-size: 20px;
+    padding:10px; 
+    background-color: brown;
+}
